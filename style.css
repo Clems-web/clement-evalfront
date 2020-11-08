@@ -1,0 +1,96 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+body {
+    background-color: #d0d0d0;
+}
+
+#cadreparent {
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+    position: relative;
+    left: 18%;
+}
+
+#brad {
+    height: 200px;
+    width: 40%;
+    background-color: #35bc7a;
+    position: absolute;
+}
+#profile {
+    height: 200px;
+    width: 20%;
+    background-color: #ff9e00;
+    position: absolute;
+    left: 40%;
+}
+
+#experience {
+    height: 200px;
+    width: 20%;
+    background-color: #1e8bc4;
+    position: absolute;
+    top: 200px;
+}
+
+#education {
+    height: 200px;
+    width: 20%;
+    background-color: #f15a49;
+    position: absolute;
+    top: 200px;
+    left: 20%;
+}
+
+#blog {
+    height: 200px;
+    width: 20%;
+    background-color: #35bc7a;
+    position: absolute;
+    top: 200px;
+    left: 40%;
+}
+
+#socialmenu {
+    height: 200px;
+    width: 20%;
+    background-color: #f86925;
+    position: absolute;
+    top: 400px;
+}
+
+#contact {
+    height: 200px;
+    width: 20%;
+    background-color: #1e8bc4;
+    position: absolute;
+    top: 400px;
+    left: 20%;
+}
+
+#portfolio {
+    height: 200px;
+    width: 20%;
+    background-color: #f86925;
+    position: absolute;
+    top: 400px;
+    left: 40%;
+}
+
+#photo {
+    height: 600px;
+    width: 40%;
+    position: absolute;
+    left: 60%;
+}
+
+#JS {
+    width: 400px;
+    height: 600px;
+    position: fixed;
+}
