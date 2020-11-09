@@ -11,9 +11,12 @@ body {
 #cadreparent {
     width: 1000px;
     height: 600px;
-    border: 1px solid black;
+    border: 1px solid #d0d0d0;
     position: relative;
     left: 18%;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
 }
 
 #brad {
@@ -28,6 +31,8 @@ body {
     background-color: #ff9e00;
     position: absolute;
     left: 40%;
+    padding-top: 75px;
+    font-size: 40px;
 }
 
 #experience {
@@ -36,6 +41,8 @@ body {
     background-color: #1e8bc4;
     position: absolute;
     top: 200px;
+    padding-top: 75px;
+    font-size: 40px;
 }
 
 #education {
@@ -45,6 +52,8 @@ body {
     position: absolute;
     top: 200px;
     left: 20%;
+    padding-top: 75px;
+    font-size: 40px;
 }
 
 #blog {
@@ -54,6 +63,8 @@ body {
     position: absolute;
     top: 200px;
     left: 40%;
+    padding-top: 75px;
+    font-size: 40px;
 }
 
 #socialmenu {
@@ -62,6 +73,8 @@ body {
     background-color: #f86925;
     position: absolute;
     top: 400px;
+    padding-top: 75px;
+    font-size: 40px;
 }
 
 #contact {
@@ -71,6 +84,8 @@ body {
     position: absolute;
     top: 400px;
     left: 20%;
+    padding-top: 75px;
+    font-size: 40px;
 }
 
 #portfolio {
@@ -80,17 +95,73 @@ body {
     position: absolute;
     top: 400px;
     left: 40%;
+    padding-top: 75px;
+    font-size: 40px;
 }
 
 #photo {
     height: 600px;
     width: 40%;
     position: absolute;
-    left: 60%;
+    left: 40%;
 }
 
 #JS {
     width: 400px;
     height: 600px;
     position: fixed;
+}
+
+.spapro {
+    font-size: 20px;
+}
+
+h2 {
+    text-align: justify;
+    padding-left: 20px;
+}
+
+#PK {
+    text-align: justify;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+#cadreinbrad {
+    border: 4px solid #ffffff;
+    height: 50px;
+    width: 30%;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+#cadreinbrad2 {
+    border: 4px solid #ffffff;
+    height: 50px;
+    width: 30%;
+    position: absolute;
+    top: 120px;
+    left: 240px;
+
+}
+
+.spabrad {
+    position: relative;
+    top: 15px;
+}
+
+#leftarrow {
+    z-index: 1;
+    position: absolute;
+    bottom: 250px;
+    font-size: 50px;
+}
+
+#rightarrow {
+    z-index: 1;
+    position: absolute;
+    bottom: 250px;
+    left: 142%;
+    font-size: 50px;
 }
